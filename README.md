@@ -1,6 +1,10 @@
-# Cryptov2 Документация
+# Cryptov2 Documentation
 
-## Как запустить проект
+This project is full serverside app to find crypto arbitrage pairs through different markets.
+Also this server will have convinient Rest Api client.
+
+
+## How to run project
 
 1. `git clone https://github.com/seldish-og/Cryptov2.git`
 2. Create and run Apache Cassandra (for example in Docker)
