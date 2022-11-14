@@ -1,7 +1,7 @@
 # Cryptov2 Documentation
 
-This project is full serverside app to find crypto arbitrage pairs through different markets.
-Also this server will have convinient Rest Api client.
+This project is a full serverside app to find crypto arbitrage pairs through different markets.
+Also this app will have convinient Rest Api client.
 
 
 ## How to run project
