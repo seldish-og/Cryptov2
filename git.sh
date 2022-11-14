@@ -1,4 +1,4 @@
 #!/bin/sh
 git add .
-git commit -m "testing sh"
+git commit -m "some updates"
 git push
