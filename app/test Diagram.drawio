@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-15T00:33:14.648Z" agent="5.0 (iPhone; CPU iPhone OS 15_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/106.2  Mobile/15E148 Safari/605.1.15" etag="JyymWAQuxe6RM5lkdTuz" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-15T00:39:57.651Z" agent="5.0 (iPhone; CPU iPhone OS 15_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/106.2  Mobile/15E148 Safari/605.1.15" etag="4p1sDQHYh08K3SL6Sui6" version="20.5.3" type="github">
   <diagram id="kGv_vZeduOFwRs7YzCex" name="Page-1">
-    <mxGraphModel dx="890" dy="1573" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2373" dy="4193" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -117,10 +117,10 @@
         <mxCell id="nyKOxjoBN5lLLicJEgR8-34" value="Bad idea, beacause some apis have limits. But if we use coingecko or cmc mb it works with their limits" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="1618" y="68" width="202" height="143" as="geometry" />
         </mxCell>
-        <mxCell id="nyKOxjoBN5lLLicJEgR8-38" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;rounded=1;startSize=8;endSize=32.800000000000004;fontSize=12;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;endWidth=174.2857142857143;" edge="1" parent="1">
+        <mxCell id="nyKOxjoBN5lLLicJEgR8-38" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;rounded=1;startSize=8;endSize=47.422222222222224;fontSize=12;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;endWidth=174.2857142857143;width=100;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="nyKOxjoBN5lLLicJEgR8-39">
           <mxGeometry width="140" relative="1" as="geometry">
             <mxPoint x="1899" y="593" as="sourcePoint" />
-            <mxPoint x="2266" y="593" as="targetPoint" />
+            <mxPoint x="2393" y="518" as="targetPoint" />
             <Array as="points">
               <mxPoint x="2195" y="593" />
             </Array>
@@ -134,6 +134,49 @@
         </mxCell>
         <mxCell id="nyKOxjoBN5lLLicJEgR8-31" value="" style="shape=stencil(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);lineShape=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="1544.9984286143822" y="193.7640723038403" width="363.29499041134795" height="917.6041952779497" as="geometry" />
+        </mxCell>
+        <mxCell id="nyKOxjoBN5lLLicJEgR8-44" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;rounded=1;startSize=8;endSize=50.31428571428572;fontSize=12;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;endWidth=127.27272727272727;width=17.142857142857142;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="nyKOxjoBN5lLLicJEgR8-41">
+          <mxGeometry width="140" relative="1" as="geometry">
+            <mxPoint x="1435" y="1032" as="sourcePoint" />
+            <mxPoint x="1453" y="1301" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyKOxjoBN5lLLicJEgR8-41" value="Main loop" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1376" y="1377" width="157" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="nyKOxjoBN5lLLicJEgR8-45" value="Get all coins with markets" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1369" y="1553" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nyKOxjoBN5lLLicJEgR8-46" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nyKOxjoBN5lLLicJEgR8-45">
+          <mxGeometry width="140" relative="1" as="geometry">
+            <mxPoint x="1379" y="1593" as="sourcePoint" />
+            <mxPoint x="1444" y="1763" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyKOxjoBN5lLLicJEgR8-48" value="Loop them by getting prices and counting best spread" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1373" y="1765" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nyKOxjoBN5lLLicJEgR8-49" value="If spread is good find fee and count all money arbitrage get" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1369" y="1955" width="176" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="nyKOxjoBN5lLLicJEgR8-50" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nyKOxjoBN5lLLicJEgR8-48" target="nyKOxjoBN5lLLicJEgR8-49">
+          <mxGeometry width="140" relative="1" as="geometry">
+            <mxPoint x="1379" y="1995" as="sourcePoint" />
+            <mxPoint x="1519" y="1995" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyKOxjoBN5lLLicJEgR8-51" value="Than check everything yourself and start buying/selling))" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1389.5" y="2113" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nyKOxjoBN5lLLicJEgR8-52" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nyKOxjoBN5lLLicJEgR8-49" target="nyKOxjoBN5lLLicJEgR8-51">
+          <mxGeometry width="140" relative="1" as="geometry">
+            <mxPoint x="1281" y="2304" as="sourcePoint" />
+            <mxPoint x="1421" y="2304" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
