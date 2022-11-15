@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-15T00:39:57.651Z" agent="5.0 (iPhone; CPU iPhone OS 15_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/106.2  Mobile/15E148 Safari/605.1.15" etag="4p1sDQHYh08K3SL6Sui6" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-15T00:45:02.338Z" agent="5.0 (iPhone; CPU iPhone OS 15_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/106.2  Mobile/15E148 Safari/605.1.15" etag="NiAqpm7Ua9Ez93zpLb80" version="20.5.3" type="github">
   <diagram id="kGv_vZeduOFwRs7YzCex" name="Page-1">
-    <mxGraphModel dx="2373" dy="4193" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1017" dy="1797" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -175,6 +175,38 @@
           <mxGeometry width="140" relative="1" as="geometry">
             <mxPoint x="1281" y="2304" as="sourcePoint" />
             <mxPoint x="1421" y="2304" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyKOxjoBN5lLLicJEgR8-53" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="nyKOxjoBN5lLLicJEgR8-4">
+          <mxGeometry width="140" relative="1" as="geometry">
+            <mxPoint x="549" y="527" as="sourcePoint" />
+            <mxPoint x="663" y="588" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="533" y="527" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyKOxjoBN5lLLicJEgR8-54" value="Foreign key by id or coin symbol of name" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="554" y="532" width="106" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="nyKOxjoBN5lLLicJEgR8-55" value="1)Withdrawal fees 2)buy/sell fee&lt;br&gt;3) min/max withdrawal&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="673" y="612.57" width="156" height="165.43" as="geometry" />
+        </mxCell>
+        <mxCell id="nyKOxjoBN5lLLicJEgR8-58" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nyKOxjoBN5lLLicJEgR8-4">
+          <mxGeometry width="140" relative="1" as="geometry">
+            <mxPoint x="634" y="646" as="sourcePoint" />
+            <mxPoint x="748" y="612" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyKOxjoBN5lLLicJEgR8-59" value="1) id (symbol) str&lt;br&gt;2) coin name str&lt;br&gt;3) 24h volumes int&lt;br&gt;4) available markets array" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="349" y="610.79" width="203" height="169" as="geometry" />
+        </mxCell>
+        <mxCell id="nyKOxjoBN5lLLicJEgR8-60" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nyKOxjoBN5lLLicJEgR8-1">
+          <mxGeometry width="140" relative="1" as="geometry">
+            <mxPoint x="431" y="832" as="sourcePoint" />
+            <mxPoint x="472" y="610" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
