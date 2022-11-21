@@ -25,7 +25,11 @@ Run MySQL DB in Docker with your params
 
 - `docker pull mysql`
 - `docker run -d --name some-mysql --env MYSQL_USER=user --env MYSQL_PASSWORD=pswd --env MYSQL_ROOT_PASSWORD=root_pswd -e MYSQL_DATABASE=dbmariadb -p 33060:33060 mysql:latest`
-
+### PostgreSQL 
+Run PostgreSQL in Docker With your params
+- `docker pull postgresql`
+- `docker run --name dbname -e POSTGRES_USER=user -e POSTGRES_DB=dbname -e POSTGRES_PASSWORD=mysecretpassword -p 5455:5455 -d postgres
+`
 ## Run project
 
 1. `git clone https://github.com/seldish-og/Cryptov2.git`
