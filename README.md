@@ -28,7 +28,7 @@ Run MySQL DB in Docker with your params
 ### PostgreSQL 
 Run PostgreSQL in Docker With your params
 - `docker pull postgresql`
-- `docker run --name dbname -e POSTGRES_USER=user -e POSTGRES_DB=dbname -e POSTGRES_PASSWORD=mysecretpassword -p 5455:5455 -d postgres
+- `docker run --name dbname -e POSTGRES_USER=user -e POSTGRES_DB=dbname -e POSTGRES_PASSWORD=mysecretpassword -p 5455:5432 -d postgres
 `
 ## Run project
 
