@@ -30,6 +30,6 @@ Run MySQL DB in Docker with your params
 
 1. `git clone https://github.com/seldish-og/Cryptov2.git`
 2. Create venv: `python -m venv venv`, start venv: `source ./venv/bin/activate`
-3.
-4. Run `python ./app/database/init_db.py` to create tables in Cassandra db
+3. Create ./app/database/init_databases/.env file with your MySql settings
+4. Run `python ./app/database/init_databases/init_mysql_db.py` to create tables in your MySql db
 5.
