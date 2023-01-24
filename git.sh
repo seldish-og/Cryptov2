@@ -1,4 +1,4 @@
 #!/bin/sh
 git add .
-git commit -m "some updates"
+git commit -m "done parser and saving to json"
 git push
