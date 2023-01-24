@@ -8,7 +8,22 @@ def write_json(data: dict):
         json.dump(data, outfile)
 
 
-class Parser:
+class DataFormatter:
+    def prepare_crypto_names(self):
+        pass
+
+    def prepare_market_cap(self):
+        pass
+
+    def prepare_day_volume(self, all_tags):
+        day_volume = []
+        for i in all_tags:
+            day_volume.append(
+                int(i.text.strip().replace("$", "").replace(",", "").replace(".", "")))
+        return day_volume
+
+
+class Parser(DataFormatter):
     def __init__(self) -> None:
         self.url = "https://www.coingecko.com/"
         self.params = {}
@@ -20,14 +35,16 @@ class Parser:
     def get_html_data(self):
         page_text = self.get_page_content()
         soup = BeautifulSoup(page_text, "html.parser")
-        # crypto_names = soup.find_all("span", class_="lg:tw-flex")
-        day_volume = []
-        for i in soup.find_all("td", class_="td-liquidity_score"):
-            day_volume.append(
-                int(i.text.strip().replace("$", "").replace(",", "").replace(".", "")))
 
-        # market_cap = soup.find_all("td", class_="td-market_cap")
-        return day_volume, len(day_volume)
+        crypto_names = soup.find_all("span", class_="lg:tw-flex")
+
+        # all_day_volume = soup.find_all("td", class_="td-liquidity_score")
+        # day_volume = self.prepare_day_volume(all_tags=all_day_volume)
+
+        all_market_cap = soup.find_all("td", class_="td-market_cap")
+        market_cap = self.prepare_day_volume(all_tags=all_market_cap)
+
+        return market_cap, len(market_cap)
 
 
 prs = Parser()
