@@ -61,9 +61,8 @@ def check_and_save_data():
     crypto_names, crypto_symbols, day_volume, market_cap = parser.get_html_data()
 
     result_dict = {}
-    for value in day_volume:
+    for value_index, value in enumerate(day_volume):
         if value > 1000000:
-            value_index = day_volume.index(value)
             result_dict[crypto_names[value_index]] = [
                 crypto_symbols[value_index], value, market_cap[value_index]]
     write_json(result_dict)
