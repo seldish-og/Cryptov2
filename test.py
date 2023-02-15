@@ -13,4 +13,4 @@ def task(number: int):
 
 # print(task(5))/
 # print(task(10))
-print(task(15002300))
+# print(task(15002300))
