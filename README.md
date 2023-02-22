@@ -1,7 +1,8 @@
 # Cryptov2 Documentation
-
+## <b>If you want to support contact me workgeorge2@gmail.com</b>
 This project is a full serverside app to find crypto arbitrage pairs through different markets.
 Also this app will have convinient Rest Api client.
+
 
 ## Running database
 
