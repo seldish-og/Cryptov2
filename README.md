@@ -3,7 +3,6 @@
 This project is a full serverside app to find crypto arbitrage pairs through different markets.
 Also this app will have convinient Rest Api client.
 
-
 ## Running database
 
 ### Cassandra
